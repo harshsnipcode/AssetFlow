@@ -1,0 +1,45 @@
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# Node / React / Vite
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Coverage and test output
+coverage/
+.nyc_output/
+test-results/
